@@ -8,11 +8,11 @@ import json
 load_dotenv()
 
 # FIX 1: Spelling match karein (new_Gemini_API_Key)
-#api_key = os.getenv("New_Gemini_API_Key") 
-if "New_Gemini_API_Key" in st.secrets:
-    api_key=st.secrets["New_Gemini_API_Key"]
-else:
-    api_key=os.getenv("New_Gemini_API_Key")
+api_key = os.getenv("Challenge_Gemini_API_Key") 
+#if "Challenge_Gemini_API_Key" in st.secrets:
+    #api_key=st.secrets["Challenge_Gemini_API_Key"]
+#else:
+    #api_key=os.getenv("Challenge_Gemini_API_Key")
 
 FILE_NAME = "xora_memory.json"
 
